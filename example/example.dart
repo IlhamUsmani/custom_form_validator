@@ -1,7 +1,8 @@
 import 'dart:async';
+import 'package:custom_form_validator/form_validator.dart';
 import 'package:intl/intl.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:form_validator/form_validator.dart';
+
 
 
 
@@ -59,12 +60,11 @@ print(urlValidator('google.com'));       // null (valid)
 print(urlValidator('https://flutter.dev')); // null (valid)
 print(urlValidator('not_a_url'));        // "Invalid URL"
 
-print('\n--- Date Validation ---');
 
  print('\n--- Date Validation ---');
 final dateValidator = Validators.date(
  format: 'yyyy-MM-dd'
- 
+
 );
 
 print(dateValidator('2025-09-25')); // -> null (valid, yyyy-MM-dd)
@@ -76,8 +76,6 @@ print('\n--- Time Validation ---');
 final timeValidator = Validators.time();
 print(timeValidator('14:30')); // null (valid)
 print(timeValidator('99:99')); // "Invalid time"
-
-
 
 
 }

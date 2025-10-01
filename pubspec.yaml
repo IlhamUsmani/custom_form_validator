@@ -1,4 +1,4 @@
-name: form_validator
+name: custom_form_validator
 description: A simple and customizable Flutter package for validating form fields with ease.
 version: 0.0.1
 
