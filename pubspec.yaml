@@ -1,10 +1,13 @@
 name: form_validator
-description: "A new Flutter package project."
+description: A simple and customizable Flutter package for validating form fields with ease.
 version: 0.0.1
-homepage:
+
+homepage: https://github.com/IlhamUsmani/form_validator
+repository: https://github.com/IlhamUsmani/form_validator
+issue_tracker: https://github.com/IlhamUsmani/form_validator/issues
 
 environment:
-  sdk: ^3.8.1
+  sdk: ">=2.17.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
