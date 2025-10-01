@@ -1,4 +1,4 @@
-import 'package:custom_form_validator/form_validator.dart';
+import 'package:custom_form_validator/custom_form_validator.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 

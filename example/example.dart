@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:custom_form_validator/form_validator.dart';
+import 'package:custom_form_validator/custom_form_validator.dart';
 import 'package:intl/intl.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
